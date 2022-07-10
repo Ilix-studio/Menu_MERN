@@ -1,5 +1,5 @@
-import React from 'react';
-import './../screens/CartScreen.css';
+import React from "react";
+import "./../screens/CartScreen.css";
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
@@ -61,7 +61,7 @@ export const CartScreen = () => {
         <div className="cartscreen__right">
           <div className="cartscreen__info">
             <p>Subtotal ({getCartCount()}) items</p>
-            <p>${getCartSubTotal()}</p>
+            <p>{getCartSubTotal()}</p>
           </div>
           <div>
             <button>Proceed To Checkout</button>
