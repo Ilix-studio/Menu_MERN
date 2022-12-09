@@ -1,0 +1,1 @@
+npm run data:import - to import data to database
